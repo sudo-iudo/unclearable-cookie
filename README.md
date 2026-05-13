@@ -6,10 +6,8 @@
 
 #### Disclaimer:
 
-This method does not work if the cookies are cleared while the tab is closed, or if the tab is closed during cookie clearing.
+This method does not work if the cookies are cleared while the tab is closed, or if the tab is closed during cookie clearing. However, it still bypasses the most common cookie-clearing flow in the UI. Most likely, this also works in other browsers. I tested it in Firefox on desktop as well.
 
-However, it still bypasses the most common cookie-clearing flow in the UI.
+#### Legal Disclaimer
 
-Most likely, this also works in other browsers. I tested it in Firefox on desktop as well.
-
-<video src="./cookie-refuse-to-die.mp4" controls muted></video>
+This proof of concept is intended for security research and demonstration purposes only. Using similar techniques in production to circumvent user intent or privacy controls may violate applicable laws, platform policies, or regulations.

@@ -11,3 +11,5 @@ This method does not work if the cookies are cleared while the tab is closed, or
 However, it still bypasses the most common cookie-clearing flow in the UI.
 
 Most likely, this also works in other browsers. I tested it in Firefox on desktop as well.
+
+On Android, this works only if two tabs are open and the data is cleared for one of them while the other remains open.

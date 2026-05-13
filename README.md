@@ -4,9 +4,7 @@
 2. Clear the cookies using the popup from the address bar
 3. Reload the page
 
-<video controls width="700">
-  <source src="https://github.com/sudo-iudo/unclearable-cookie/raw/main/cookie-refuse-to-die.mp4" type="video/mp4">
-</video>
+![demo](./cookie-refuse-to-die.gif)
 
 #### Disclaimer:
 

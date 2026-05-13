@@ -16,6 +16,4 @@ On Android, this works only if two tabs are open and the data is cleared for one
 
 #### Video
 
-```md
 <video src="./cookie-refuse-to-die.mp4" controls muted></video>
-```

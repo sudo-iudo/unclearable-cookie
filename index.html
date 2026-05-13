@@ -99,14 +99,78 @@
 
         font-family: 'Inter', sans-serif;
       }
+
+      .github-link {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 22px;
+      }
+
+      .github-link a {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+
+        padding: 10px 16px;
+
+        border-radius: 14px;
+
+        background: rgba(255, 255, 255, 0.04);
+
+        border: 1px solid rgba(255, 255, 255, 0.06);
+
+        color: #d8d8d8;
+
+        text-decoration: none;
+
+        font-size: 14px;
+        font-weight: 500;
+
+        transition: all 0.2s ease;
+      }
+
+      .github-link a:hover {
+        background: rgba(255, 255, 255, 0.08);
+
+        border-color: rgba(255, 255, 255, 0.12);
+
+        transform: translateY(-1px);
+
+        color: white;
+      }
+
+      .github-link svg {
+        width: 18px;
+        height: 18px;
+      }
     </style>
   </head>
 
   <body>
     <div class="card">
       <h1>Unclearable Cookie</h1>
-
       <pre id="output"></pre>
+      <div class="github-link">
+        <a
+          href="https://github.com/sudo-iudo/unclearable-cookie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 .5C5.648.5.5 5.648.5 12a11.5 11.5 0 0 0 7.863 10.917c.575.105.787-.25.787-.556 0-.274-.01-1-.016-1.962-3.2.696-3.877-1.543-3.877-1.543-.523-1.33-1.278-1.684-1.278-1.684-1.045-.714.08-.7.08-.7 1.155.08 1.763 1.186 1.763 1.186 1.026 1.758 2.693 1.25 3.35.955.103-.743.402-1.25.73-1.538-2.554-.29-5.238-1.277-5.238-5.684 0-1.256.45-2.283 1.186-3.088-.12-.29-.514-1.46.112-3.043 0 0 .967-.31 3.17 1.18a10.95 10.95 0 0 1 5.77 0c2.2-1.49 3.166-1.18 3.166-1.18.628 1.583.234 2.753.115 3.043.738.805 1.184 1.832 1.184 3.088 0 4.418-2.688 5.39-5.25 5.675.413.355.78 1.055.78 2.126 0 1.536-.014 2.775-.014 3.152 0 .31.208.667.793.554A11.503 11.503 0 0 0 23.5 12C23.5 5.648 18.352.5 12 .5Z"
+            />
+          </svg>
+
+          GitHub
+        </a>
+      </div>
     </div>
 
     <script>
@@ -139,13 +203,9 @@
         ] = `uuid=${identifier}; path=/; SameSite=Lax`;
         output[
           '\u0074\u0065\u0078\u0074\u0043\u006F\u006E\u0074\u0065\u006E\u0074'
-        ] = `Current UUID:
+        ] = `Current ID: ${identifier}
 
-${identifier}
-
-Cookie:
-
-${document['\u0063\u006F\u006F\u006B\u0069\u0065']}`;
+Cookie: ${document['\u0063\u006F\u006F\u006B\u0069\u0065']}`;
       }
       update();
       setInterval(update, 463456 ^ 463457);

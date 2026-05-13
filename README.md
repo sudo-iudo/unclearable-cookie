@@ -1,10 +1,10 @@
+![demo](./cookie-refuse-to-die.gif)
+
 #### Steps to reproduce
 
 1. Open the [page](https://sudo-iudo.github.io/unclearable-cookie) in Google Chrome
 2. Clear the cookies using the popup from the address bar
 3. Reload the page
-
-![demo](./cookie-refuse-to-die.gif)
 
 #### Disclaimer
 

@@ -12,6 +12,4 @@ However, it still bypasses the most common cookie-clearing flow in the UI.
 
 Most likely, this also works in other browsers. I tested it in Firefox on desktop as well.
 
-#### Video
-
-<video src="./cookie-refuse-to-die.mp4" controls muted></video>
+[![Watch the video](./cookie-refuse-to-die.mp4)]

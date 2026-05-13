@@ -4,6 +4,10 @@
 2. Clear the cookies using the popup from the address bar
 3. Reload the page
 
+<video controls width="700">
+  <source src="https://github.com/sudo-iudo/unclearable-cookie/raw/main/cookie-refuse-to-die.mp4" type="video/mp4">
+</video>
+
 #### Disclaimer:
 
 This method does not work if the cookies are cleared while the tab is closed, or if the tab is closed during cookie clearing. However, it still bypasses the most common cookie-clearing flow in the UI. Most likely, this also works in other browsers. I tested it in Firefox on desktop as well.

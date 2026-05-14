@@ -8,8 +8,7 @@
 
 #### Disclaimer
 
-This method works in Chrome, Safari, and Firefox.  
-It does not work if the cookies are cleared while the tab is closed. However, it still bypasses the most common cookie-clearing flow in the UI.
+This method works in Chrome, Safari, and Firefox. It does not work if the cookies are cleared while the tab is closed. However, it still bypasses the most common cookie-clearing flow in the UI.
 
 #### Legal Disclaimer
 

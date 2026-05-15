@@ -1,5 +1,9 @@
 ![demo](./cookie-refuse-to-die.gif)
 
+#### How it works
+
+The script stores a persistent unique ID in memory and continuously rewrites the same cookie every millisecond. Even if the cookie is manually deleted, the page instantly recreates it from the in-memory value while the tab remains open.
+
 #### Steps to reproduce
 
 1. Open the [page](https://sudo-iudo.github.io/unclearable-cookie) in Google Chrome, Safari, or Firefox

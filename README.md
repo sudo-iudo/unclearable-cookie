@@ -1,5 +1,9 @@
 ![demo](./cookie-refuse-to-die.gif)
 
+#### Why?
+
+Common cookie-clearing popups in popular browsers become effectively useless.
+
 #### How it works
 
 The script stores a persistent unique ID in memory and continuously rewrites the same cookie every millisecond. Even if the cookie is manually deleted, the page instantly recreates it from the in-memory value while the tab remains open.
@@ -12,7 +16,7 @@ The script stores a persistent unique ID in memory and continuously rewrites the
 
 #### Disclaimer
 
-This method works in Chrome, Safari, and Firefox. It does not work if the cookies are cleared while the tab is closed. However, it still bypasses the most common cookie-clearing flow in the UI.
+This method works in Chrome, Safari, and Firefox. It does not work if the cookies are cleared while the tab is closed.
 
 #### Legal Disclaimer
 
